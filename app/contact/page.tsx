@@ -1,0 +1,1 @@
+export default function Contact(){return <main className="container py-20"><h1 className="text-4xl font-bold">Contact Y&B Roofing Inc.</h1><p className="mt-4">3314 S Leavitt St, Chicago, IL 60608</p><p>Call: +1 773-495-2021</p><a className="inline-block mt-8" href="tel:+17734952021">Request Free Roof Inspection</a></main>}
