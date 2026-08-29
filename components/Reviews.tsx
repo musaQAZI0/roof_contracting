@@ -1,0 +1,1 @@
+export default function Reviews(){return <section className="bg-gray-100 py-16"><div className="container text-center"><h2 className="text-3xl font-bold">Trusted by Chicago Homeowners</h2><p className="text-2xl mt-4">★★★★★ 4.9 Google Rating</p><p>172+ Verified Customer Reviews</p></div></section>}
