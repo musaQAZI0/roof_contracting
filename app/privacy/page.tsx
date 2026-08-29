@@ -1,0 +1,1 @@
+export default function Privacy(){return <main className="container py-20"><h1 className="section-title">Privacy Policy</h1><p className="mt-6 max-w-3xl text-slate-600">A finalized privacy policy should be supplied by Y&B Roofing before the enquiry form is connected to a live service.</p></main>}

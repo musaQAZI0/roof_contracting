@@ -1,11 +1,3 @@
-import type { Metadata } from 'next';
-import './globals.css';
-
-export const metadata: Metadata = {
- title: 'Y&B Roofing Inc. | Professional Roofing Contractor Chicago',
- description: 'Y&B Roofing Inc. provides professional roof repair, replacement and roofing services in Chicago, IL.',
-};
-
-export default function RootLayout({children}:{children:React.ReactNode}){
- return <html lang="en"><body>{children}</body></html>
-}
+import type {Metadata} from 'next';import './globals.css';import Navbar from '@/components/Navbar';import Footer from '@/components/Footer';import Schema from '@/components/Schema';import MobileActionBar from '@/components/MobileActionBar';
+export const metadata:Metadata={title:{default:'Y&B Roofing Inc. | Chicago Roofing Contractor',template:'%s | Y&B Roofing'},description:'Residential and commercial roof repair, replacement and inspections in Chicago, Illinois.'};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><Schema/><Navbar/>{children}<Footer/><MobileActionBar/></body></html>}

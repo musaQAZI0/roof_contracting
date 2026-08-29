@@ -1,0 +1,1 @@
+export default function Terms(){return <main className="container py-20"><h1 className="section-title">Terms</h1><p className="mt-6 max-w-3xl text-slate-600">Final service terms should be supplied and approved by Y&B Roofing before publication.</p></main>}

@@ -1,0 +1,2 @@
+import {ClipboardCheck,Phone} from 'lucide-react';
+export default function MobileActionBar(){return <div className="fixed inset-x-0 bottom-0 z-50 grid h-[68px] grid-cols-2 border-t border-stone-300 bg-white p-2 shadow-[0_-8px_25px_rgba(0,0,0,.1)] sm:hidden"><a className="flex items-center justify-center gap-2 font-extrabold text-[#1f2925]" href="tel:+17734952021"><Phone size={19}/>Call now</a><a className="flex items-center justify-center gap-2 rounded-[3px] bg-[#c95f32] font-extrabold text-white" href="/contact"><ClipboardCheck size={19}/>Free inspection</a></div>}
