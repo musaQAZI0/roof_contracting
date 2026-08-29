@@ -1,0 +1,2 @@
+const services=['Roof Repair','Roof Replacement','Residential Roofing','Commercial Roofing','Storm Damage Repair','Roof Inspection'];
+export default function Services(){return <section className="container py-16"><h2 className="text-3xl font-bold text-center">Our Roofing Services</h2><div className="grid md:grid-cols-3 gap-6 mt-8">{services.map(s=><div className="p-6 shadow rounded-xl" key={s}><h3 className="font-bold text-xl">{s}</h3><p className="mt-2">Professional roofing solutions by Y&B Roofing Inc. in Chicago.</p></div>)}</div></section>}
