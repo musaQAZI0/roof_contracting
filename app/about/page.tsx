@@ -1,0 +1,1 @@
+export default function About(){return <main className="container py-20"><h1 className="text-4xl font-bold">About Y&B Roofing Inc.</h1><p className="mt-6 text-lg">Y&B Roofing Inc. is a trusted Chicago roofing contractor providing professional roof repair, replacement, inspections and roofing solutions for residential and commercial properties.</p></main>}
